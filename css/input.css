@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-primary-color: #02b290;
+    --color-banner-headline: #253d4e;
+    --font-family-geologica: "Geologica";
+    --font-family-poppins: "Poppins";
+    --font-family-manrope: "Manrope";
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply mx-2 500px:mx-6 xl:mx-auto xl:max-w-[1200px] 2xl:max-w-[1420px];
+  }
+  .swiper {
+    @apply w-full h-full;
+  }
+  .swiper-slide {
+    @apply text-center text-lg bg-white flex items-center justify-center;
+  }
+  .swiper-slide-img {
+    @apply h-[360px] lg:h-[360px] xl:h-[380px] 2xl:h-[420px] bg-cover w-full;
+  }
+  .swiper-pagination {
+    @apply relative;
+  }
+}
