@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;500;600;700;900&family=Manrope:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;500;600;700;900&family=Manrope:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <!-- css -->
@@ -206,83 +206,346 @@
     </header>
 
     <!-- layout -->
-    <main class="relative">
-      <!-- our hero bannar sections -->
-      <section class="section-container my-8 rounded-lg overflow-hidden">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <!-- First -->
-            <div class="swiper-slide relative rounded-lg overflow-hidden">
-              <!-- background image -->
-              <div
-                class="swiper-slide-img"
-                style="
-                  background-image: url('../images/farmart-hero-banner-1.png');
-                "
-              ></div>
+    <main class="bg-white">
+      <!-- first section -->
+      <section class="relative">
+        <div class="section-container my-8">
+          <!-- our hero bannar sections -->
+          <div class="swiper mySwiper rounded-lg overflow-hidden">
+            <div class="swiper-wrapper">
+              <!-- First -->
+              <div class="swiper-slide rounded-lg overflow-hidden">
+                <!-- background image -->
+                <div
+                  class="swiper-slide-img"
+                  style="
+                    background-image: url('../images/farmart-hero-banner-1.png');
+                  "
+                ></div>
 
-              <!-- content -->
-              <div
-                class="absolute top-[50%] lg:left-14 2xl:left-20 -translate-y-[50%] space-y-6 w-[55%] text-center lg:text-left"
-              >
-                <h1
-                  class="capitalize font-manrope font-bold text-[40px] leading-[50px] xl:text-5xl xl:leading-tight 2xl:text-[52px] 2xl:leading-[64px] text-[#253D4E]"
+                <!-- content -->
+                <div
+                  class="absolute top-[50%] left-[50%] -translate-x-[50%] lg:translate-x-0 lg:left-14 2xl:left-20 -translate-y-[50%] w-[96%] 500px:w-[90%] lg:w-[80%] 500px:space-y-4 xl:space-y-6 xl:w-[55%] text-center lg:text-left"
                 >
-                  The Best Quality Fresh Fruits Guaranteed!
-                </h1>
-                <p class="font-poppins text-[#7E7E7E]">
-                  We source and sell the very best Mangoes, Bananas, Apples, and
-                  other fruits, sourced with the greatest care from the farmer.
-                </p>
-
-                <a class="block" href="">
-                  <button
-                    class="font-geologica py-3 text-base rounded-md px-6 bg-brand-color text-white capitalize"
+                  <h1
+                    class="capitalize mb-5 500px:mb-0 font-manrope font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight 2xl:text-[52px] 2xl:leading-[64px] text-color-black"
                   >
-                    Shop Now
-                  </button>
-                </a>
+                    The Best Quality Fresh Fruits Guaranteed!
+                  </h1>
+                  <p class="font-poppins mb-4 500px:mb-0 text-gray-600">
+                    We source and sell the very best Mangoes, Bananas, Apples,
+                    and other fruits, sourced with the greatest care from the
+                    farmer.
+                  </p>
+
+                  <a class="inline-block" href="">
+                    <button
+                      class="font-geologica py-2 px-4 500px:py-3 500px:px-6 text-base rounded-md bg-brand-color text-white capitalize"
+                    >
+                      Shop Now
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <!-- second -->
+              <div class="swiper-slide relative rounded-lg overflow-hidden">
+                <!-- background image -->
+                <div
+                  class="swiper-slide-img"
+                  style="
+                    background-image: url('../images/farmart-hero-banner-2.png');
+                  "
+                ></div>
+
+                <!-- content -->
+                <div
+                  class="absolute top-[50%] left-[50%] -translate-x-[50%] lg:translate-x-0 lg:left-14 2xl:left-20 -translate-y-[50%] w-[96%] 500px:w-[90%] lg:w-[80%] 500px:space-y-4 xl:space-y-6 xl:w-[55%] text-center lg:text-left"
+                >
+                  <h1
+                    class="capitalize mb-5 500px:mb-0 font-manrope font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight 2xl:text-[52px] 2xl:leading-[64px] text-color-black"
+                  >
+                    Don’t miss amazing deals on grocery Products.
+                  </h1>
+                  <p class="font-poppins mb-4 500px:mb-0 text-gray-600">
+                    Save up to 50% with Farmmar. We source and sell the very
+                    best grocery products and Healthy vegetable that you deserve
+                    to eat fresh.
+                  </p>
+
+                  <a class="inline-block" href="">
+                    <button
+                      class="font-geologica py-2 px-4 500px:py-3 500px:px-6 text-base rounded-md bg-brand-color text-white capitalize"
+                    >
+                      Shop Now
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
-
-            <!-- second -->
-            <div class="swiper-slide relative rounded-lg overflow-hidden">
-              <!-- background image -->
-              <div
-                class="swiper-slide-img"
-                style="
-                  background-image: url('../images/farmart-hero-banner-2.png');
-                "
-              ></div>
-
-              <!-- content -->
-              <div
-                class="absolute top-[50%] lg:left-14 2xl:left-20 -translate-y-[50%] space-y-6 w-[55%] text-center lg:text-left"
-              >
-                <h1
-                  class="capitalize text-5xl font-bold font-manrope leading-[1.15] text-[#253D4E]"
-                >
-                  Don’t miss amazing deals on grocery Products.
-                </h1>
-                <p class="font-poppins text-[#7E7E7E]">
-                  Save up to 50% with Farmmar. We source and sell the very best
-                  grocery products and Healthy vegetable that you deserve to eat
-                  fresh.
-                </p>
-
-                <a class="block" href="">
-                  <button
-                    class="font-geologica py-3 text-base rounded-md px-6 bg-brand-color text-white capitalize"
-                  >
-                    Shop Now
-                  </button>
-                </a>
-              </div>
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-pagination"></div>
+
+          <!-- static highlight section -->
+          <div
+            class="px-14 py-6 mt-6 hidden lg:flex items-center justify-between rounded-lg bg-orange-100"
+          >
+            <div class="font-poppins">
+              <h1 class="text-xl">
+                <span class="text-brand-color font-bold"
+                  >100% Natural Quality</span
+                >
+                <!--  -->
+                Organic Porduct
+              </h1>
+              <p class="text-gray-600">
+                See Our latest discounted products from here and get a special
+
+                <span class="font-semibold text-brand-color ml-2"
+                  ><a href="">Discounted Products </a></span
+                >
+              </p>
+            </div>
+            <a href="">
+              <button
+                class="bg-brand-color px-4 py-2 rounded-[20px] text-white font-semibold"
+              >
+                Shop Now
+              </button>
+            </a>
+          </div>
         </div>
       </section>
+
+      <!-- Featured Categories -->
+      <section class="bg-gray-100 lg:py-16 py-10">
+        <div class="section-container">
+          <div class="mx-auto text-center w-full lg:w-2/5 mb-12">
+            <h1
+              class="text-xl lg:text-2xl mb-2 font-manrope font-extrabold text-color-black"
+            >
+              Featured Categories
+            </h1>
+            <p class="text-base font-poppins text-gray-600 leading-6">
+              Choose your necessary products from this feature categories.
+            </p>
+          </div>
+
+          <ul class="grid grid-cols-6 gap-1">
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <img
+                    src="https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/05/cat-1.png"
+                    alt=""
+                    class="group-hover:scale-105 transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Fresh Vegetables
+                </p>
+              </a>
+            </li>
+
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <!-- <img
+                    src="https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/05/cat-2.png"
+                    alt=""
+                    class="group-hover:scale-105 transition-all duration-200"
+                  /> -->
+                  <img
+                    src="https://demo.xpeedstudio.com/marketov2/grocery/wp-content/uploads/sites/12/2018/10/14-min-300x300.jpg"
+                    alt=""
+                    class="group-hover:scale-105 transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Fresh Fruits
+                </p>
+              </a>
+            </li>
+
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <img
+                    src="../images/cat-6.png"
+                    alt="Cooking Ingredients"
+                    class="group-hover:scale-105 transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Cooking Ingredients
+                </p>
+              </a>
+            </li>
+
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <img
+                    src="https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/05/cat-14.png"
+                    alt=""
+                    class="group-hover:scale-105 transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Tea & Coffee
+                </p>
+              </a>
+            </li>
+
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <img
+                    src="https://borobazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fcategory%2Fcookies-biscuits.png&w=256&q=100"
+                    alt=""
+                    class="group-hover:scale-105 transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Cookies & Biscuits
+                </p>
+              </a>
+            </li>
+
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <!-- <img
+                    src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-49.jpg"
+                    alt=""
+                    class="group-hover:scale-105 transition-all duration-200"
+                  /> -->
+                  <img
+                    src="https://demo.xpeedstudio.com/marketov2/grocery/wp-content/uploads/sites/12/2018/08/0-min-150x150.jpg"
+                    class="group-hover:scale-105 h-full w-full transition-all duration-200"
+                    alt=""
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Snacks & Beverages
+                </p>
+              </a>
+            </li>
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <img
+                    src="https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/05/cat-13.png"
+                    alt=""
+                    class="group-hover:scale-105 transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Fast Foods
+                </p>
+              </a>
+            </li>
+
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <img
+                    src="https://borobazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fcategory%2Fraw-chicken.png&w=256&q=100"
+                    alt="Frozen Meats"
+                    class="group-hover:scale-105 h-full w-full transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Frozen Meats
+                </p>
+              </a>
+            </li>
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <img
+                    src="https://demo.xpeedstudio.com/marketov2/grocery/wp-content/uploads/sites/12/2018/10/11-min-300x300.jpg"
+                    alt="Frozen Fishes"
+                    class="group-hover:scale-105 h-full w-full transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Frozen Fishes
+                </p>
+              </a>
+            </li>
+
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <img
+                    src="https://demo.xpeedstudio.com/marketov2/grocery/wp-content/uploads/sites/12/2018/10/13-min-300x300.jpg"
+                    alt="Milk & Dairy"
+                    class="group-hover:scale-105 h-full w-full transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Milk & Dairy
+                </p>
+              </a>
+            </li>
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <img
+                    src="https://chaldn.com/_mpimage/kitchen-appliances?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D29089&q=best&v=1&m=400&webp=1"
+                    alt="Frozen Fishes"
+                    class="group-hover:scale-105 h-full w-full transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Laundry & Household
+                </p>
+              </a>
+            </li>
+            <li class="bg-white group rounded-md">
+              <a href="" class="p-5 flex flex-col items-center justify-center">
+                <div class="mb-[2px] h-[120px] w-[120px] overflow-hidden">
+                  <img
+                    src="https://chaldn.com/_mpimage/dog-food?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28784&q=low&v=1&m=400&webp=1"
+                    alt="Pet Care"
+                    class="group-hover:scale-105 h-full w-full transition-all duration-200"
+                  />
+                </div>
+                <p
+                  class="font-semibold text-sm text-center font-poppins text-gray-600"
+                >
+                  Pet Care Products
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--  -->
     </main>
 
     <!-- js -->
@@ -295,10 +558,10 @@
           el: ".swiper-pagination",
           clickable: true,
         },
-        // autoplay: {
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
         Infinity: true,
       });
     </script>

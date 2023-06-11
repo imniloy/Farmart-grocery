@@ -5,7 +5,9 @@
 @layer base {
   :root {
     --brand-primary-color: #02b290;
-    --color-banner-headline: #253d4e;
+    --color-white: #ffffff;
+    --color-secondary-white: #f3f4f6;
+    --color-black: #253d4e;
     --font-family-geologica: "Geologica";
     --font-family-poppins: "Poppins";
     --font-family-manrope: "Manrope";
@@ -23,7 +25,7 @@
     @apply text-center text-lg bg-white flex items-center justify-center;
   }
   .swiper-slide-img {
-    @apply h-[360px] lg:h-[360px] xl:h-[380px] 2xl:h-[420px] bg-cover w-full;
+    @apply h-[380px] 500px:h-[360px] lg:h-[380px] xl:h-[400px] 2xl:h-[440px] bg-cover w-full;
   }
   .swiper-pagination {
     @apply relative;

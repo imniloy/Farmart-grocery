@@ -3,8 +3,13 @@ module.exports = {
   content: ["./html-templates/*.{html,js}"],
   theme: {
     extend: {
+      textColor: {
+        "brand-color": "var(--brand-primary-color)",
+        "color-black": "var(--color-black)",
+      },
       backgroundColor: {
         "brand-color": "var(--brand-primary-color)",
+        "secondary-white": "var(--color-secondary-white)",
       },
       screens: {
         "500px": "500px",
