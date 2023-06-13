@@ -13,6 +13,7 @@ module.exports = {
       },
       screens: {
         "500px": "500px",
+        "980px": "980px",
       },
       backgroundImage: {
         "hero-bannar-1":
