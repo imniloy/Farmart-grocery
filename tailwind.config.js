@@ -20,9 +20,8 @@ module.exports = {
           "url('https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/05/slider-2-min.png')",
       },
       fontFamily: {
-        geologica: "var(--font-family-geologica)",
         poppins: "var(--font-family-poppins)",
-        manrope: "var(--font-family-manrope)",
+        inter: "var(--font-family-inter)",
       },
     },
   },
