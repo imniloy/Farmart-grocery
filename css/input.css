@@ -29,4 +29,12 @@
   .swiper-pagination {
     @apply relative;
   }
+
+  .product-image-swipper {
+    @apply order-1 xl:order-2 flex-grow bg-transparent border border-brand-color h-[600px] w-full overflow-hidden;
+  }
+
+  .product-thumb-swipper {
+    @apply flex flex-row xl:flex-col space-x-2 xl:space-x-0 xl:space-y-2 order-2 xl:order-1;
+  }
 }

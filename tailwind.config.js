@@ -3,6 +3,9 @@ module.exports = {
   content: ["./html-templates/*.{html,js}"],
   theme: {
     extend: {
+      borderColor: {
+        "brand-color": "var(--brand-primary-color)",
+      },
       textColor: {
         "brand-color": "var(--brand-primary-color)",
         "color-black": "var(--color-black)",
