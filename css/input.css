@@ -35,6 +35,6 @@
   }
 
   .product-thumb-swipper {
-    @apply flex flex-row xl:flex-col space-x-2 xl:space-x-0 xl:space-y-2 order-2 xl:order-1;
+    @apply flex flex-row xl:flex-col space-x-2 xl:space-x-0 xl:space-y-2 order-2 xl:order-1  mt-2 xl:mt-0;
   }
 }
