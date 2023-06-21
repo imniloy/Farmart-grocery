@@ -265,54 +265,55 @@
           </ol>
         </div>
 
-        <!-- product details -->
-        <div class="grid grid-cols-12">
-          <!-- image section -->
-          <div class="col-span-7">
-            <div class="w-full xl:space-x-3 flex flex-col xl:flex-row">
-              <!-- image chooser -->
-              <div class="product-thumb-swipper">
-                <div
-                  class="border border-brand-color rounded overflow-hidden cursor-pointer hover:opacity-60 transition-all duration-200 shrink-0 w-[120px] xl:w-[150px] 2xl:w-[160px]"
-                >
-                  <img
-                    src="https://borobazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fp-3-1.png&w=256&q=75"
-                    alt="product-image-1"
-                  />
+        <!-- product details and image -->
+        <div class="mb-10">
+          <div class="grid grid-cols-12 mb-20">
+            <!-- image section -->
+            <div class="col-span-7">
+              <div class="w-full xl:space-x-3 flex flex-col xl:flex-row">
+                <!-- image chooser -->
+                <div class="product-thumb-swipper">
+                  <div
+                    class="border border-brand-color rounded overflow-hidden cursor-pointer hover:opacity-60 transition-all duration-200 shrink-0 w-[120px] xl:w-[150px] 2xl:w-[170px]"
+                  >
+                    <img
+                      src="https://borobazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fp-3-1.png&w=256&q=75"
+                      alt="product-image-1"
+                    />
+                  </div>
+                  <div
+                    class="border border-brand-color rounded overflow-hidden cursor-pointer hover:opacity-60 transition-all duration-200 shrink-0 w-[120px] xl:w-[150px] 2xl:w-[170px]"
+                  >
+                    <img
+                      src="https://borobazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fp-3-2.png&w=750&q=75"
+                      alt="product-image-2"
+                    />
+                  </div>
+
+                  <div
+                    class="border border-brand-color rounded overflow-hidden cursor-pointer hover:opacity-60 transition-all duration-200 shrink-0 w-[120px] xl:w-[150px] 2xl:w-[170px]"
+                  >
+                    <img
+                      src="https://borobazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fp-3-1.png&w=256&q=75"
+                      alt="product-image-3"
+                    />
+                  </div>
                 </div>
+
+                <!-- details section -->
                 <div
-                  class="border border-brand-color rounded overflow-hidden cursor-pointer hover:opacity-60 transition-all duration-200 shrink-0 w-[120px] xl:w-[150px] 2xl:w-[160px]"
+                  class="order-1 xl:order-2 flex-grow bg-transparent border border-brand-color h-[580px] w-full overflow-hidden"
                 >
                   <img
+                    fetchpriority="high"
                     src="https://borobazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fp-3-2.png&w=750&q=75"
-                    alt="product-image-2"
+                    class="w-full h-full"
+                    alt=""
                   />
                 </div>
 
-                <div
-                  class="border border-brand-color rounded overflow-hidden cursor-pointer hover:opacity-60 transition-all duration-200 shrink-0 w-[120px] xl:w-[150px] 2xl:w-[160px]"
-                >
-                  <img
-                    src="https://borobazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fp-3-1.png&w=256&q=75"
-                    alt="product-image-3"
-                  />
-                </div>
-              </div>
-
-              <!-- details section -->
-              <div
-                class="order-1 xl:order-2 flex-grow bg-transparent border border-brand-color h-[600px] w-full overflow-hidden"
-              >
-                <img
-                  fetchpriority="high"
-                  src="https://borobazar.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fp-3-2.png&w=750&q=75"
-                  class="w-full h-full"
-                  alt=""
-                />
-              </div>
-
-              <!-- swipper code start here -->
-              <!-- <div class="swiper product-image-swipper">
+                <!-- swipper code start here -->
+                <!-- <div class="swiper product-image-swipper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <img
@@ -346,110 +347,60 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
               </div> -->
-              <!-- swipper code end here -->
+                <!-- swipper code end here -->
+              </div>
             </div>
-          </div>
-          <!-- details section -->
-          <div class="col-span-5 px-4">
-            <div class="title&stock-info space-y-2">
-              <h1
-                class="text-lg md:text-xl xl:text-2xl font-inter font-semibold transition-colors duration-300 text-color-black leading-tight"
-              >
-                MSI Optix G241V E2 24" FHD FreeSync IPS Esports Gaming Monitor
-              </h1>
-
-              <h4
-                class="inline-block px-3 py-1 text-sm rounded-sm bg-emerald-100 text-emerald-500 font-bold"
-              >
-                Stock: <span class="text-red-500">450</span>
-              </h4>
-            </div>
-
-            <h3
-              class="font-bold text-color-black font-poppins text-base mt-6 md:text-xl"
-            >
-              Price: $800
-            </h3>
-
-            <div class="space-y-2.5 md:space-y-3 my-6">
-              <!-- counter button -->
-              <div
-                class="flex justify-center rounded-md w-full space-x-6 border border-gray-300 px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4"
-              >
-                <!-- minus -->
-                <span class="cursor-pointer text-color-black"
-                  ><svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="w-6 h-6"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M19.5 12h-15"
-                    />
-                  </svg>
-                </span>
-                <!-- amount -->
-                <span
-                  class="font-semibold text-color-black text-base font-poppins"
-                  >1</span
+            <!-- details section -->
+            <div class="col-span-5 px-6">
+              <div class="title&stock-info space-y-2">
+                <h1
+                  class="text-lg md:text-xl xl:text-2xl font-inter font-semibold transition-colors duration-300 text-color-black leading-tight"
                 >
-                <!-- plus -->
-                <span class="cursor-pointer text-color-black">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="w-6 h-6"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M12 4.5v15m7.5-7.5h-15"
-                    />
-                  </svg>
-                </span>
+                  MSI Optix G241V E2 24" FHD FreeSync IPS Esports Gaming Monitor
+                </h1>
+
+                <h4
+                  class="inline-block px-3 py-1 text-sm rounded-sm bg-emerald-100 text-emerald-500 font-bold"
+                >
+                  Stock: <span class="text-red-500">450</span>
+                </h4>
               </div>
 
-              <!-- add to cart button -->
-              <button
-                class="text-base leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold font-poppins text-center justify-center border-0 border-transparent rounded-md focus-visible:outline-none focus:outline-none text-white px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 hover:text-white bg-emerald-500 hover:bg-emerald-600 w-full space-x-3"
+              <h3
+                class="font-semibold text-color-black font-inter text-base mt-6 md:text-xl"
               >
-                <span class="inline-block"
-                  ><svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="w-6 h-6"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="capitalize text-base 2xl:text-lg font-medium inline-block"
-                  >Add to Cart</span
-                >
-              </button>
+                Price: $800
+              </h3>
 
-              <!-- wishlist&share -->
-              <div class="w-full space-x-4 flex justify-between items-center">
-                <!-- wishlist button -->
-                <button
-                  class="w-1/2 flex items-center justify-center space-x-2 border border-gray-300 px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 rounded-md text-color-black"
+              <div class="space-y-2.5 md:space-y-3 my-6">
+                <!-- counter button -->
+                <div
+                  class="flex justify-center rounded-md w-full space-x-6 border border-gray-300 px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4"
                 >
-                  <span class="">
+                  <!-- minus -->
+                  <span class="cursor-pointer text-color-black"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M19.5 12h-15"
+                      />
+                    </svg>
+                  </span>
+                  <!-- amount -->
+                  <span
+                    class="font-semibold text-color-black text-base font-poppins"
+                    >1</span
+                  >
+                  <!-- plus -->
+                  <span class="cursor-pointer text-color-black">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -461,12 +412,62 @@
                       <path
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                        d="M12 4.5v15m7.5-7.5h-15"
                       />
                     </svg>
                   </span>
-                  <!-- filled icon heart -->
-                  <!-- <span class="">
+                </div>
+
+                <!-- add to cart button -->
+                <button
+                  class="text-base leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold font-poppins text-center justify-center border-0 border-transparent rounded-md focus-visible:outline-none focus:outline-none text-white px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 hover:text-white bg-brand-color hover:bg-[#06c7a1] w-full space-x-3"
+                >
+                  <span class="inline-block"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="capitalize text-base 2xl:text-lg font-medium inline-block"
+                    >Add to Cart</span
+                  >
+                </button>
+
+                <!-- wishlist&share -->
+                <div class="w-full space-x-4 flex justify-between items-center">
+                  <!-- wishlist button -->
+                  <button
+                    class="w-1/2 flex items-center justify-center space-x-2 border border-gray-300 px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 rounded-md text-color-black"
+                  >
+                    <span class="">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                        />
+                      </svg>
+                    </span>
+                    <!-- filled icon heart -->
+                    <!-- <span class="">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -478,62 +479,1289 @@
                       />
                     </svg>
                   </span> -->
-                  <span class="text-base font-medium font-poppins"
-                    >Wishlist</span
+                    <span class="text-base font-medium font-poppins"
+                      >Wishlist</span
+                    >
+                  </button>
+                  <!-- share button -->
+                  <button
+                    class="w-1/2 flex items-center justify-center space-x-2 border border-gray-300 px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 rounded-md text-color-black"
                   >
-                </button>
-                <!-- share button -->
-                <button
-                  class="w-1/2 flex items-center justify-center space-x-2 border border-gray-300 px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 rounded-md text-color-black"
-                >
-                  <span class="">
+                    <span class="">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-base font-medium font-poppins"
+                      >Share</span
+                    >
+                  </button>
+                </div>
+              </div>
+
+              <!-- tags -->
+              <div class="flex space-x-3">
+                <div class="flex items-center space-x-2">
+                  <div>
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
                       fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="w-6 h-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="ltr:mr-2 rtl:ml-2 text-color-black"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z"
-                      />
+                        d="M17.125 1H12.3677C11.4662 1 10.6188 1.351 9.98123 1.98849L1.63974 10.33C1.22725 10.7425 1 11.2908 1 11.8765C1 12.4593 1.22725 13.0075 1.63974 13.42L6.58 18.3603C6.99249 18.7728 7.54075 19 8.12649 19C8.70924 19 9.2575 18.7728 9.66999 18.3603L18.0115 10.0188C18.649 9.38125 19 8.53374 19 7.63226V2.87499C19 1.8415 18.1585 1 17.125 1ZM18.25 7.63226C18.25 8.33352 17.977 8.99277 17.482 9.48777L9.13976 17.83C8.6005 18.3693 7.65476 18.373 7.111 17.83L2.17 12.889C1.89926 12.619 1.74999 12.259 1.74999 11.8735C1.74999 11.491 1.89923 11.131 2.17 10.8603L10.5115 2.51875C11.008 2.02301 11.6665 1.74999 12.3677 1.74999H17.125C17.7452 1.74999 18.25 2.25473 18.25 2.87499V7.63226H18.25Z"
+                        fill="#999999"
+                        stroke="#999999"
+                        stroke-width="0.5"
+                      ></path>
+                      <path
+                        d="M14.8749 3.25C13.8414 3.25 12.9999 4.0915 12.9999 5.12499C12.9999 6.15848 13.8414 6.99998 14.8749 6.99998C15.9084 6.99998 16.7499 6.15851 16.7499 5.12499C16.7499 4.0915 15.9084 3.25 14.8749 3.25ZM14.8749 6.24999C14.2546 6.24999 13.7499 5.74525 13.7499 5.12499C13.7499 4.50473 14.2546 3.99999 14.8749 3.99999C15.4952 3.99999 15.9999 4.50473 15.9999 5.12499C15.9999 5.74525 15.4951 6.24999 14.8749 6.24999Z"
+                        fill="#999999"
+                        stroke="#999999"
+                        stroke-width="0.5"
+                      ></path>
                     </svg>
-                  </span>
-                  <span class="text-base font-medium font-poppins">Share</span>
-                </button>
+                  </div>
+                  <p class="font-semibold font-inter">Tags:</p>
+                </div>
+
+                <div class="space-x-[2px] space-y-2">
+                  <div
+                    class="inline-block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
+                  >
+                    Fresh food
+                  </div>
+                  <div
+                    class="inline-block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
+                  >
+                    Fresh food
+                  </div>
+                  <div
+                    class="inline-block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
+                  >
+                    Fresh food
+                  </div>
+                  <div
+                    class="inline-block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
+                  >
+                    Fresh food
+                  </div>
+                  <div
+                    class="inline-block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
+                  >
+                    Fresh food
+                  </div>
+                </div>
               </div>
             </div>
-
-            <!-- tags -->
-            <div class="">
-              <i>
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="ltr:mr-2 rtl:ml-2 text-color-black"
-                >
-                  <path
-                    d="M17.125 1H12.3677C11.4662 1 10.6188 1.351 9.98123 1.98849L1.63974 10.33C1.22725 10.7425 1 11.2908 1 11.8765C1 12.4593 1.22725 13.0075 1.63974 13.42L6.58 18.3603C6.99249 18.7728 7.54075 19 8.12649 19C8.70924 19 9.2575 18.7728 9.66999 18.3603L18.0115 10.0188C18.649 9.38125 19 8.53374 19 7.63226V2.87499C19 1.8415 18.1585 1 17.125 1ZM18.25 7.63226C18.25 8.33352 17.977 8.99277 17.482 9.48777L9.13976 17.83C8.6005 18.3693 7.65476 18.373 7.111 17.83L2.17 12.889C1.89926 12.619 1.74999 12.259 1.74999 11.8735C1.74999 11.491 1.89923 11.131 2.17 10.8603L10.5115 2.51875C11.008 2.02301 11.6665 1.74999 12.3677 1.74999H17.125C17.7452 1.74999 18.25 2.25473 18.25 2.87499V7.63226H18.25Z"
-                    fill="#999999"
-                    stroke="#999999"
-                    stroke-width="0.5"
-                  ></path>
-                  <path
-                    d="M14.8749 3.25C13.8414 3.25 12.9999 4.0915 12.9999 5.12499C12.9999 6.15848 13.8414 6.99998 14.8749 6.99998C15.9084 6.99998 16.7499 6.15851 16.7499 5.12499C16.7499 4.0915 15.9084 3.25 14.8749 3.25ZM14.8749 6.24999C14.2546 6.24999 13.7499 5.74525 13.7499 5.12499C13.7499 4.50473 14.2546 3.99999 14.8749 3.99999C15.4952 3.99999 15.9999 4.50473 15.9999 5.12499C15.9999 5.74525 15.4951 6.24999 14.8749 6.24999Z"
-                    fill="#999999"
-                    stroke="#999999"
-                    stroke-width="0.5"
-                  ></path>
-                </svg>
-              </i>
-            </div>
           </div>
+
+          <div class="font-poppins font-normal space-y-2">
+            <div class="space-y-2 mb-4">
+              <h3
+                class="text-color-black font-bold text-xl capitalize font-inter"
+              >
+                Products Details
+              </h3>
+              <hr class="" />
+            </div>
+            <p class="font-normal text-gray-700 font-inter">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              alias, similique magnam in corrupti facere? Neque non at nostrum
+              nisi aliquid necessitatibus repellat exercitationem dolores,
+              sapiente quia magni commodi expedita.Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Numquam alias, similique magnam in
+              corrupti facere? Neque non at nostrum nisi aliquid necessitatibus
+              repellat exercitationem dolores, sapiente quia magni commodi
+              expedita.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Numquam alias, similique magnam in corrupti facere? Neque non at
+              nostrum nisi aliquid necessitatibus repellat exercitationem
+              dolores, sapiente quia magni commodi expedita.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- related products -->
+      <section class="py-6 sm:py-8 lg:py-10 2xl:pt-12 2xl:pb-16 bg-gray-50">
+        <div class="section-container">
+          <!-- title section -->
+          <h1
+            class="mb-4 sm:mb-6 lg:mb-8 text-xl lg:text-2xl text-color-black font-bold capitalize font-inter"
+          >
+            Related products
+          </h1>
+
+          <!-- products lists -->
+          <ul
+            class="w-full h-full grid gap-[10px] 500px:gap-4 grid-cols-2 md:grid-cols-3 980px:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6"
+          >
+            <!-- first item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-3 500px:px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden mt-3 z-10 space-y-[6px]">
+                <!-- name of the products -->
+                <p
+                  class="font-medium text-sm font-poppins text-gray-600 truncate"
+                >
+                  Rainbow Chard
+                </p>
+
+                <!-- price section -->
+                <div
+                  class="flex justify-between items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price item -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <button
+                    aria-label="cart"
+                    class="h-9 w-9 flex items-center justify-center border border-gray-200 rounded text-emerald-500 hover:border-emerald-500 hover:bg-emerald-500 hover:text-white transition-all"
+                  >
+                    <span class="text-xl"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M460 160h-88v-12A116.13 116.13 0 00258.89 32h-5.78A116.13 116.13 0 00140 148v12H52a4 4 0 00-4 4v300a16 16 0 0016 16h384a16 16 0 0016-16V164a4 4 0 00-4-4zm-280-11c0-41.84 33.41-76.56 75.25-77A76.08 76.08 0 01332 148v12H180zm156 187h-64v64h-32v-64h-64v-32h64v-64h32v64h64z"
+                        ></path>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- second item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-3 500px:px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden mt-3 z-10 space-y-[6px]">
+                <!-- name of the products -->
+                <p
+                  class="font-medium text-sm font-poppins text-gray-600 truncate"
+                >
+                  Rainbow Chard
+                </p>
+
+                <!-- price section -->
+                <div
+                  class="flex justify-between items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price item -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <button
+                    aria-label="cart"
+                    class="h-9 w-9 flex items-center justify-center border border-gray-200 rounded text-emerald-500 hover:border-emerald-500 hover:bg-emerald-500 hover:text-white transition-all"
+                  >
+                    <span class="text-xl"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M460 160h-88v-12A116.13 116.13 0 00258.89 32h-5.78A116.13 116.13 0 00140 148v12H52a4 4 0 00-4 4v300a16 16 0 0016 16h384a16 16 0 0016-16V164a4 4 0 00-4-4zm-280-11c0-41.84 33.41-76.56 75.25-77A76.08 76.08 0 01332 148v12H180zm156 187h-64v64h-32v-64h-64v-32h64v-64h32v64h64z"
+                        ></path>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- three item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-3 500px:px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden mt-3 z-10 space-y-[6px]">
+                <!-- name of the products -->
+                <p
+                  class="font-medium text-sm font-poppins text-gray-600 truncate"
+                >
+                  Rainbow Chard
+                </p>
+
+                <!-- price section -->
+                <div
+                  class="flex justify-between items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price item -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <button
+                    aria-label="cart"
+                    class="h-9 w-9 flex items-center justify-center border border-gray-200 rounded text-emerald-500 hover:border-emerald-500 hover:bg-emerald-500 hover:text-white transition-all"
+                  >
+                    <span class="text-xl"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M460 160h-88v-12A116.13 116.13 0 00258.89 32h-5.78A116.13 116.13 0 00140 148v12H52a4 4 0 00-4 4v300a16 16 0 0016 16h384a16 16 0 0016-16V164a4 4 0 00-4-4zm-280-11c0-41.84 33.41-76.56 75.25-77A76.08 76.08 0 01332 148v12H180zm156 187h-64v64h-32v-64h-64v-32h64v-64h32v64h64z"
+                        ></path>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- four item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-3 500px:px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden mt-3 z-10 space-y-[6px]">
+                <!-- name of the products -->
+                <p
+                  class="font-medium text-sm font-poppins text-gray-600 truncate"
+                >
+                  Rainbow Chard
+                </p>
+
+                <!-- price section -->
+                <div
+                  class="flex justify-between items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price item -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <button
+                    aria-label="cart"
+                    class="h-9 w-9 flex items-center justify-center border border-gray-200 rounded text-emerald-500 hover:border-emerald-500 hover:bg-emerald-500 hover:text-white transition-all"
+                  >
+                    <span class="text-xl"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 512 512"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M460 160h-88v-12A116.13 116.13 0 00258.89 32h-5.78A116.13 116.13 0 00140 148v12H52a4 4 0 00-4 4v300a16 16 0 0016 16h384a16 16 0 0016-16V164a4 4 0 00-4-4zm-280-11c0-41.84 33.41-76.56 75.25-77A76.08 76.08 0 01332 148v12H180zm156 187h-64v64h-32v-64h-64v-32h64v-64h32v64h64z"
+                        ></path>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- five order button product item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden w-full mt-3 z-10 space-y-1">
+                <p
+                  class="font-medium w-full truncate text-sm font-poppins text-gray-600"
+                >
+                  Rainbow Chard
+                </p>
+                <div
+                  class="flex justify-between h-full items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <div>
+                    <div
+                      class="h-full w-auto flex flex-col 500px:flex-row items-center justify-evenly py-[6px] 500px:py-1 px-1 500px:px-2 bg-emerald-500 text-white rounded space-x-[2px] 500px:space-x-[6px]"
+                    >
+                      <!-- minus button -->
+                      <button>
+                        <span class="text-white text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M400 256H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <p class="text-base text-white px-1 font-inter font-bold">
+                        1
+                      </p>
+                      <!-- plus button -->
+                      <button>
+                        <span class="text-dark text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M256 112v288m144-144H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- six order button product item edit -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden w-full mt-3 z-10 space-y-1">
+                <p
+                  class="font-medium w-full truncate text-sm font-poppins text-gray-600"
+                >
+                  Rainbow Chard
+                </p>
+                <div
+                  class="flex justify-between h-full items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <span
+                      class="line-through block font-normal text-sm text-gray-500"
+                      >$1600</span
+                    >
+                  </div>
+
+                  <!-- add/delete button -->
+                  <div>
+                    <div
+                      class="h-full w-auto flex flex-col 500px:flex-row items-center justify-evenly py-[6px] 500px:py-1 px-1 500px:px-2 bg-emerald-500 text-white rounded space-x-[2px] 500px:space-x-[6px]"
+                    >
+                      <!-- minus button -->
+                      <button>
+                        <span class="text-white text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M400 256H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <p class="text-base text-white px-1 font-inter font-bold">
+                        1
+                      </p>
+                      <!-- plus button -->
+                      <button>
+                        <span class="text-dark text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M256 112v288m144-144H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- seven order button product item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden w-full mt-3 z-10 space-y-1">
+                <p
+                  class="font-medium w-full truncate text-sm font-poppins text-gray-600"
+                >
+                  Rainbow Chard
+                </p>
+                <div
+                  class="flex justify-between h-full items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <div>
+                    <div
+                      class="h-full w-auto flex flex-col 500px:flex-row items-center justify-evenly py-[6px] 500px:py-1 px-1 500px:px-2 bg-emerald-500 text-white rounded space-x-[2px] 500px:space-x-[6px]"
+                    >
+                      <!-- minus button -->
+                      <button>
+                        <span class="text-white text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M400 256H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <p class="text-base text-white px-1 font-inter font-bold">
+                        1
+                      </p>
+                      <!-- plus button -->
+                      <button>
+                        <span class="text-dark text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M256 112v288m144-144H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- eight order button product item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden w-full mt-3 z-10 space-y-1">
+                <p
+                  class="font-medium w-full truncate text-sm font-poppins text-gray-600"
+                >
+                  Rainbow Chard
+                </p>
+                <div
+                  class="flex justify-between h-full items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <div>
+                    <div
+                      class="h-full w-auto flex flex-col 500px:flex-row items-center justify-evenly py-[6px] 500px:py-1 px-1 500px:px-2 bg-emerald-500 text-white rounded space-x-[2px] 500px:space-x-[6px]"
+                    >
+                      <!-- minus button -->
+                      <button>
+                        <span class="text-white text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M400 256H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <p class="text-base text-white px-1 font-inter font-bold">
+                        1
+                      </p>
+                      <!-- plus button -->
+                      <button>
+                        <span class="text-dark text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M256 112v288m144-144H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!--nine order button product item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden w-full mt-3 z-10 space-y-1">
+                <p
+                  class="font-medium w-full truncate text-sm font-poppins text-gray-600"
+                >
+                  Rainbow Chard
+                </p>
+                <div
+                  class="flex justify-between h-full items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <div>
+                    <div
+                      class="h-full w-auto flex flex-col 500px:flex-row items-center justify-evenly py-[6px] 500px:py-1 px-1 500px:px-2 bg-emerald-500 text-white rounded space-x-[2px] 500px:space-x-[6px]"
+                    >
+                      <!-- minus button -->
+                      <button>
+                        <span class="text-white text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M400 256H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <p class="text-base text-white px-1 font-inter font-bold">
+                        1
+                      </p>
+                      <!-- plus button -->
+                      <button>
+                        <span class="text-dark text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M256 112v288m144-144H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- ten order button product item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden w-full mt-3 z-10 space-y-1">
+                <p
+                  class="font-medium w-full truncate text-sm font-poppins text-gray-600"
+                >
+                  Rainbow Chard
+                </p>
+                <div
+                  class="flex justify-between h-full items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <div>
+                    <div
+                      class="h-full w-auto flex flex-col 500px:flex-row items-center justify-evenly py-[6px] 500px:py-1 px-1 500px:px-2 bg-emerald-500 text-white rounded space-x-[2px] 500px:space-x-[6px]"
+                    >
+                      <!-- minus button -->
+                      <button>
+                        <span class="text-white text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M400 256H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <p class="text-base text-white px-1 font-inter font-bold">
+                        1
+                      </p>
+                      <!-- plus button -->
+                      <button>
+                        <span class="text-dark text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M256 112v288m144-144H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- eleven order button product item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden w-full mt-3 z-10 space-y-1">
+                <p
+                  class="font-medium w-full truncate text-sm font-poppins text-gray-600"
+                >
+                  Rainbow Chard
+                </p>
+                <div
+                  class="flex justify-between h-full items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <div>
+                    <div
+                      class="h-full w-auto flex flex-col 500px:flex-row items-center justify-evenly py-[6px] 500px:py-1 px-1 500px:px-2 bg-emerald-500 text-white rounded space-x-[2px] 500px:space-x-[6px]"
+                    >
+                      <!-- minus button -->
+                      <button>
+                        <span class="text-white text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M400 256H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <p class="text-base text-white px-1 font-inter font-bold">
+                        1
+                      </p>
+                      <!-- plus button -->
+                      <button>
+                        <span class="text-dark text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M256 112v288m144-144H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- twelve order button product item -->
+            <li
+              class="relative w-full h-full cursor-pointer box-border shadow-sm overflow-hidden rounded-md bg-white group px-4 pt-3 pb-4"
+            >
+              <!-- stock information -->
+              <div>
+                <span
+                  class="bg-gray-100 text-emerald-500 rounded-full text-xs px-2 py-0 font-medium"
+                  >Stock :<span
+                    class="text-red-500 dark:text-red-400 pl-1 font-bold"
+                    >997
+                  </span></span
+                >
+              </div>
+
+              <!-- image Section -->
+              <div
+                class="flex items-center justify-center w-full min-w-[120px] h-[180px] sm:min-w-[190px] sm:h-[190px] overflow-hidden"
+              >
+                <img
+                  src="https://kachabazar-store.vercel.app/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FZ5yQ47YB%2FRainbow-Chard-Package-per-lb.jpg&w=256&q=75"
+                  alt="product name"
+                  class="group-hover:scale-110 h-full transition-all duration-200"
+                />
+              </div>
+
+              <!-- details section -->
+              <div class="overflow-hidden w-full mt-3 z-10 space-y-1">
+                <p
+                  class="font-medium w-full truncate text-sm font-poppins text-gray-600"
+                >
+                  Rainbow Chard
+                </p>
+                <div
+                  class="flex justify-between h-full items-center text-heading text-sm sm:text-base space-s-2 md:text-base lg:text-xl"
+                >
+                  <!-- price -->
+                  <div class="product-price font-poppins font-bold">
+                    <span class="inline-block text-xl text-gray-800"
+                      >$1440</span
+                    >
+
+                    <!-- <span
+                                  class="line-through block font-normal text-sm text-gray-500"
+                                  >$1600</span
+                                > -->
+                  </div>
+
+                  <!-- add/delete button -->
+                  <div>
+                    <div
+                      class="h-full w-auto flex flex-col 500px:flex-row items-center justify-evenly py-[6px] 500px:py-1 px-1 500px:px-2 bg-emerald-500 text-white rounded space-x-[2px] 500px:space-x-[6px]"
+                    >
+                      <!-- minus button -->
+                      <button>
+                        <span class="text-white text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M400 256H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                      <p class="text-base text-white px-1 font-inter font-bold">
+                        1
+                      </p>
+                      <!-- plus button -->
+                      <button>
+                        <span class="text-dark text-base">
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 512 512"
+                            height="20px"
+                            width="20px"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="32"
+                              d="M256 112v288m144-144H112"
+                            ></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
 
