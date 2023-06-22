@@ -210,12 +210,12 @@
       <!-- after header section -->
       <section class="section-container">
         <!-- Breadcrumbs ar logic bujle sob jaygay Ei parben -->
-        <div class="Breadcrumbs-container-element w-full py-6 font-poppins">
+        <div class="Breadcrumbs-container-element w-full py-4 sm:py-6 font-poppins">
           <ol class="flex items-center space-x-1">
             <li
               class="text-sm transition duration-200 ease-in cursor-pointer hover:text-emerald-500 font-semibold"
             >
-              <a href="">Home</a>
+              <a href="" class="text-xs 500px:text-sm sm:text-base">Home</a>
             </li>
             <!-- arrow Icon -->
             <li class="text-sm">
@@ -237,7 +237,7 @@
             <li
               class="text-sm transition duration-200 ease-in cursor-pointer hover:text-emerald-500 font-semibold"
             >
-              <a href="">Fresh Vegetable</a>
+              <a href="" class="text-xs 500px:text-sm sm:text-base">Fresh Vegetable</a>
             </li>
             <!-- arrow Icon -->
             <li class="text-sm">
@@ -260,14 +260,18 @@
             <li
               class="text-sm transition duration-200 ease-in cursor-pointer hover:text-emerald-500 font-semibold"
             >
-              <a href="">Rainbow Chard </a>
+              <a href="" class="text-xs 500px:text-sm sm:text-base"
+                >Rainbow Chard
+              </a>
             </li>
           </ol>
         </div>
 
         <!-- product details and image -->
-        <div class="mb-10">
-          <div class="grid gap-y-8 lg:gap-x-4 xl:gap-x-6 lg:grid-cols-12 mb-20">
+        <div class="mb-8 lg:mb-10">
+          <div
+            class="grid gap-y-8 lg:gap-x-4 xl:gap-x-6 lg:grid-cols-12 mb-8 lg:mb-12 xl:mb-20"
+          >
             <!-- image section -->
             <div class="lg:col-span-6 xl:col-span-7">
               <div
@@ -369,15 +373,17 @@
               </div>
 
               <h3
-                class="font-semibold text-color-black font-inter text-base mt-6 md:text-xl"
+                class="font-semibold text-color-black font-inter text-lg mt-4 500px:mt-6 md:text-xl"
               >
                 Price: $800
               </h3>
 
-              <div class="space-y-2.5 md:space-y-3 mt-16 mb-8">
+              <div
+                class="space-y-2.5 md:space-y-3 my-6 500px:my-8 lg:my-10 xl:mt-16 mb-8"
+              >
                 <!-- counter button -->
                 <div
-                  class="flex justify-center rounded-md w-full space-x-6 border border-gray-300 px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4"
+                  class="flex justify-center rounded-md w-full space-x-6 border border-gray-300 px-4 md:px-6 lg:px-8 py-3 md:py-3.5 lg:py-4"
                 >
                   <!-- minus -->
                   <span class="cursor-pointer text-color-black"
@@ -422,7 +428,7 @@
 
                 <!-- add to cart button -->
                 <button
-                  class="text-base leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold font-poppins text-center justify-center border-0 border-transparent rounded-md focus-visible:outline-none focus:outline-none text-white px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 hover:text-white bg-brand-color hover:bg-[#06c7a1] w-full space-x-3"
+                  class="text-base leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 font-semibold font-poppins text-center justify-center border-0 border-transparent rounded-md focus-visible:outline-none focus:outline-none text-white hover:text-white bg-brand-color hover:bg-[#06c7a1] w-full space-x-3 px-4 md:px-6 lg:px-8 py-3 md:py-3.5 lg:py-4"
                 >
                   <span class="inline-block"
                     ><svg
@@ -450,7 +456,7 @@
                 <div class="w-full space-x-4 flex justify-between items-center">
                   <!-- wishlist button -->
                   <button
-                    class="w-1/2 flex items-center justify-center space-x-2 border border-gray-300 px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 rounded-md text-color-black"
+                    class="w-1/2 flex items-center justify-center space-x-2 border border-gray-300 px-4 md:px-6 lg:px-8 py-3 md:py-3.5 lg:py-4 rounded-md text-color-black"
                   >
                     <span class="">
                       <svg
@@ -487,7 +493,7 @@
                   </button>
                   <!-- share button -->
                   <button
-                    class="w-1/2 flex items-center justify-center space-x-2 border border-gray-300 px-4 md:px-6 lg:px-8 py-4 md:py-3.5 lg:py-4 rounded-md text-color-black"
+                    class="w-1/2 flex items-center justify-center space-x-2 border border-gray-300 px-4 md:px-6 lg:px-8 py-3 md:py-3.5 lg:py-4 rounded-md text-color-black"
                   >
                     <span class="">
                       <svg
@@ -541,29 +547,31 @@
                   <p class="font-semibold font-inter">Tags:</p>
                 </div>
 
-                <div class="space-x-[2px]">
+                <div
+                  class="flex flex-wrap space-x-[2px] lg:space-x-1 space-y-[2px] lg:space-y-1"
+                >
                   <div
-                    class="inline-block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
+                    class="block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
                   >
                     Fresh food
                   </div>
                   <div
-                    class="inline-block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
+                    class="block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
                   >
                     Fresh food
                   </div>
                   <div
-                    class="inline-block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
+                    class="block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
                   >
                     Fresh food
                   </div>
                   <div
-                    class="inline-block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
+                    class="block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
                   >
                     Fresh food
                   </div>
                   <div
-                    class="inline-block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
+                    class="block font-medium text-13px md:text-sm rounded hover:bg-emerald-100 border border-sink-base px-2 py-1 transition-all duration-300 cursor-pointer"
                   >
                     Fresh food
                   </div>
@@ -599,7 +607,7 @@
       </section>
 
       <!-- related products -->
-      <section class="py-6 sm:py-8 lg:py-10 2xl:pt-12 2xl:pb-16 bg-gray-50">
+      <section class="py-8 lg:py-10 2xl:pt-12 2xl:pb-16 bg-gray-50">
         <div class="section-container">
           <!-- title section -->
           <h1
