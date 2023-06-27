@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       borderColor: {
         "brand-color": "var(--brand-primary-color)",
+        "color-black": "var(--color-black)",
       },
       textColor: {
         "brand-color": "var(--brand-primary-color)",
