@@ -281,6 +281,63 @@
                     >Dashboard
                   </a>
                 </li>
+                <!-- All Orders  -->
+                <li
+                  class="p-2 my-2 flex font-inter items-center rounded-md hover:bg-gray-50 w-full hover:text-emerald-600 group"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    class="flex-shrink-0 h-4 w-4 group-hover:text-emerald-600"
+                    aria-hidden="true"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                      d="M160 144h288M160 256h288M160 368h288"
+                    ></path>
+                    <circle
+                      cx="80"
+                      cy="144"
+                      r="16"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    ></circle>
+                    <circle
+                      cx="80"
+                      cy="256"
+                      r="16"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    ></circle>
+                    <circle
+                      cx="80"
+                      cy="368"
+                      r="16"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    ></circle>
+                  </svg>
+                  <a
+                    class="inline-flex items-center font-inter justify-between ml-2 text-sm font-semibold text-color-black w-full group-hover:text-emerald-600"
+                    href="/user/dashboard"
+                    >Orders Information
+                  </a>
+                </li>
+
                 <!-- update profile -->
                 <li
                   class="p-2 my-2 flex font-inter items-center rounded-md hover:bg-gray-50 w-full hover:text-emerald-600"
@@ -361,7 +418,9 @@
               class="w-full bg-white mt-4 lg:mt-0 p-4 sm:p-5 lg:p-8 rounded-md overflow-hidden"
             >
               <div class="overflow-hidden">
-                <h2 class="text-xl font-inter font-bold mb-5">Dashboard</h2>
+                <h2 class="text-xl font-inter font-bold mb-5">
+                  Order Information
+                </h2>
                 <div class="grid gap-4 mb-8 md:grid-cols-2 xl:grid-cols-4">
                   <!-- total order -->
                   <div class="flex h-full cursor-pointer">
@@ -567,6 +626,14 @@
                                   >
                                     Total
                                   </th>
+
+                                  <th
+                                    scope="col"
+                                    class="text-center text-xs font-inter font-semibold px-6 py-2 text-gray-700 uppercase tracking-wider"
+                                  >
+                                    Edit
+                                  </th>
+
                                   <th
                                     scope="col"
                                     class="text-center text-xs font-inter font-semibold px-6 py-2 text-gray-700 uppercase tracking-wider"
@@ -602,6 +669,25 @@
                                     <span class="text-sm font-bold"
                                       >238.78</span
                                     >
+                                  </td>
+
+                                  <td
+                                    class="flex items-center justify-center px-5 py-3 leading-6 text-center whitespace-nowrap"
+                                  >
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      fill="none"
+                                      viewBox="0 0 24 24"
+                                      stroke-width="1.5"
+                                      stroke="currentColor"
+                                      class="w-5 h-5 cursor-pointer text-color-black"
+                                    >
+                                      <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10"
+                                      />
+                                    </svg>
                                   </td>
 
                                   <td
@@ -641,6 +727,25 @@
                                       >4060.00</span
                                     >
                                   </td>
+                                  <td
+                                    class="flex items-center justify-center px-5 py-3 leading-6 text-center whitespace-nowrap"
+                                  >
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      fill="none"
+                                      viewBox="0 0 24 24"
+                                      stroke-width="1.5"
+                                      stroke="currentColor"
+                                      class="w-5 h-5 cursor-pointer text-color-black"
+                                    >
+                                      <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10"
+                                      />
+                                    </svg>
+                                  </td>
+
                                   <td
                                     class="px-5 py-3 leading-6 text-center whitespace-nowrap"
                                   >
